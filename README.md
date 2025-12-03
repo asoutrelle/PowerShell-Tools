@@ -49,5 +49,6 @@ Send-WakeOnline -MAC "C8:60:00:67:C2:88" -IP "134.72.143.79" -Port 3456
 
 ### Recomendaciones
 - Asegúrate de que tu red y firewall permitan el tráfico UDP hacia el puerto especificado.
+- Es necesario tener una IP fija del dispositivo a enceder, para esto tu router debe tener DHCP Reservation.
 - Verifica que la opción **Wake-on-LAN** esté habilitada en la BIOS/UEFI y en la tarjeta de red del dispositivo destino.
 - Podes usar ```-Verbose``` para Debug
