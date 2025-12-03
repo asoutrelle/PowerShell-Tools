@@ -47,13 +47,7 @@ Send-WakeOnline -MAC "C8:60:00:67:C2:88" -IP "134.72.143.79" -Port 3456
 - **$IP** : IP pública o local del dispositivo.
 - **$Port** : Puerto UDP para enviar el paquete (usualmente 7 o 9 para WOL).
 
-### Ejemplo práctico
-```
-
-Send-WakeOnline -MAC "C8:60:00:67:C2:88" -IP "134.72.143.79" -Port 9
-
-```
-
 ### Recomendaciones
 - Asegúrate de que tu red y firewall permitan el tráfico UDP hacia el puerto especificado.
 - Verifica que la opción **Wake-on-LAN** esté habilitada en la BIOS/UEFI y en la tarjeta de red del dispositivo destino.
+- Podes usar ```-Verbose``` para Debug
