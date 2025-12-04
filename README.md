@@ -27,13 +27,12 @@ Ahora tus funciones estarán disponibles cada vez que abras PowerShell.
 ---
 
 ## Send-WakeOnline
-> [!WARNING]
-> Hacer port forwarding y abrir puertos en tu red puede ser inseguro.
-> Asegúrate de entender los riesgos antes de usarlo.
-
 
 ### Descripción
 Envía un **paquete mágico Wake-on-LAN (WOL)** a un dispositivo remoto para encenderlo a través de su dirección MAC, IP y puerto UDP.
+> [!WARNING]
+> Hacer port forwarding y abrir puertos en tu red puede ser inseguro.
+> Asegúrate de entender los riesgos antes de usarlo.
 
 ### Uso
 ```
